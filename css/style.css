@@ -1,0 +1,435 @@
+
+
+body{
+	background:#fff;
+	font-family: 'Arial',sans-serif;
+    font-size: 13px;
+	margin-top:45px;
+	
+}
+
+.widget{
+border-bottom:1px solid #fafafa;
+margin-bottom:10px;
+}
+
+.widget h3{
+color:#888;
+border-bottom:1px solid #eee;
+margin-bottom:8px;
+font-size:18px;
+text-transform:lowercase;
+}
+
+.widget h3 span{
+border-left:3px solid #f65314;
+padding-left:7px;
+padding-bottom:5px;
+}
+
+.stream .item {
+  padding: 3px 3px 15px 60px; }
+  .stream .item .stream-icon {
+    display: inline-block;
+    background-color: #CCC;
+    border-radius: 4px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-left: -40px;
+    margin-bottom: -40px;
+    position: relative;
+    top: 1px;
+    right: 20px;
+    float: left; }
+    .stream .item .stream-icon i {
+      margin-top: 12px; }
+  .stream .item .stream-success {
+    background-color: #4cb158; }
+  .stream .item .stream-danger {
+    background-color: #ea494a; }
+  .stream .item .stream-warning {
+    background-color: #ffa93c; }
+  .stream .item .stream-info {
+    background-color: #14b8d4; }
+  .stream .item .avatar {
+    border-radius: 4px;
+    margin-left: -40px;
+    margin-bottom: -40px;
+    height: 40px;
+    position: relative;
+    top: 1px;
+    right: 20px;
+    float: left; }
+  .stream .item h4 {
+    margin-bottom: 6px; }
+  .stream .item p {
+    color: #777; }
+  .stream .item p.date {
+    padding: 0;
+    float: right;
+    margin-top: 10px; }
+	
+
+	
+	
+.event {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #EEE;
+  padding-top: 10px; }
+  .event p {
+    color: #999; }
+  .event h4 {
+    text-transform: none !important;
+    font-weight: 500;
+    color: #008dcd;
+    margin: 5px 0px; }
+  .event .date {
+    text-align: center;
+    display: inline-block;
+    border-left: 4px solid #EEE;
+    padding-left: 16px;
+    float: left;
+    margin-right: 20px; }
+    .event .date h1 {
+      font-weight: 500;
+      line-height: 0.8em; }
+    .event .date h4 {
+      line-height: 1em;
+      color: #555555;
+      font-weight: 300; }
+  .event .success {
+    border-color: #4cb158; }
+  .event .danger {
+    border-color: #ea494a; }
+  .event .info {
+    border-color: #14b8d4; }
+  .event .primary {
+    border-color: #007ccd; }
+  .event .warning {
+    border-color: #ffa93c; }
+  .event .purple {
+    border-color: #7932ea; }
+  .event .inverse {
+    border-color: #333; }
+
+#events .load-more {
+  text-align: center; }
+
+.content-box {
+  background-color: #fff;
+  margin: 10px auto 5px auto;
+  padding: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+  border: 5px solid #e8e8e8; }
+  /* line 47, general/_general.scss */
+  .content-box .padded {
+    padding: 20px; }
+  /* line 48, general/_general.scss */
+  .content-box .padded10 {
+    padding: 10px; }
+  /* line 49, general/_general.scss */
+  .content-box .padded5 {
+    padding: 5px; }
+  /* line 51, general/_general.scss */
+  .content-box .divider {
+    width: 100%;
+    height: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  /* line 56, general/_general.scss */
+  .content-box .content-box-header {
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 10px;
+    height: 35px;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 35px;
+    color: #444;
+    background-color: whitesmoke;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #e8e8e8; }
+    /* line 70, general/_general.scss */
+    .content-box .content-box-header i {
+      padding-right: 5px; }
+
+.content-box.transparent {
+  background: rgba(111, 67, 28, 0.2);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 2px inset, rgba(255, 255, 255, 0.4) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 2px 2px inset, rgba(255, 255, 255, 0.4) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 2px 2px inset, rgba(255, 255, 255, 0.4) 0 1px 0;
+  border: 1px solid rgba(144, 95, 28, 0.3);
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5); }
+  /* line 96, general/_general.scss */
+  .content-box.transparent .content-box-header {
+    background: transparent;
+    border-bottom: none; }
+
+.latest-comments {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  /* line 169, general/_pages.css.scss */
+  .latest-comments .comment-box {
+    padding: 10px 0px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2); }
+    /* line 173, general/_pages.css.scss */
+    .latest-comments .comment-box .avatar {
+      width: 40px;
+      height: 40px;
+      -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+      border: 3px solid whitesmoke;
+      -webkit-border-radius: 50px;
+      -moz-border-radius: 50px;
+      -ms-border-radius: 50px;
+      -o-border-radius: 50px;
+      border-radius: 50px;
+      padding: 4px;
+      margin: 10px;
+      background-size: 98%; }
+      /* line 183, general/_pages.css.scss */
+      .latest-comments .comment-box .avatar.user1 {
+        background-image: url('../images/user.png'); }
+      /* line 184, general/_pages.css.scss */
+      .latest-comments .comment-box .avatar.user2 {
+        background-image: url('../images/user2.png'); }
+      /* line 185, general/_pages.css.scss */
+      .latest-comments .comment-box .avatar.user3 {
+        background-image: url('../images/user3.png'); }
+    /* line 189, general/_pages.css.scss */
+    .latest-comments .comment-box .article {
+      padding-top: 10px;
+      margin-left: 100px; }
+      /* line 193, general/_pages.css.scss */
+      .latest-comments .comment-box .article .post-info {
+        color: #80b031;
+        font-weight: bold;
+        font-size: 10px; }
+      /* line 199, general/_pages.css.scss */
+      .latest-comments .comment-box .article .post-content {
+        color: #333;
+        margin: 0px 10px 10px 0px;
+        padding: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border-radius: 5px; }
+      /* line 208, general/_pages.css.scss */
+      .latest-comments .comment-box .article .article-actions .btn [class^="icon-"], .latest-comments .comment-box .article .article-actions .btn [class*=" icon-"] {
+        vertical-align: bottom; }
+    /* line 212, general/_pages.css.scss */
+    .latest-comments .comment-box:hover {
+      background-color: whitesmoke; }
+  /* line 215, general/_pages.css.scss */
+  .latest-comments .view-more {
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color: #ececec; }
+    /* line 219, general/_pages.css.scss */
+    .latest-comments .view-more:hover {
+      background-color: #e8e8e8; }
+	  
+#side-section  { padding-top:20px;}
+#side-section .module-top {margin-top:15px;-webkit-border-top-left-radius: 3px;-webkit-border-top-right-radius: 3px;-moz-border-radius-topleft: 3px;-moz-border-radius-topright: 3px;border-top-left-radius: 3px;border-top-right-radius: 3px;height: 20px;background: #52B8EB;color: white;padding: 5px 13px 7px 13px;font-size: 12px;font-weight: 500;}
+#side-section .module-top i { padding-right:10px;}
+#side-section .error input {border: 1px solid #FFA0A0;}
+#side-section .module {border: 1px solid whiteSmoke;padding: 15px;background: #FCFCFC;margin:  0px;}
+#side-section .module span {font-size: 11px;}
+#side-section .module .w-input { box-sizing: border-box;
+width: 100%;}
+
+#side-section .module .label-main {font-weight: 600;font-size: 12px;}
+#side-section  .nav-list {
+padding-right: 15px;
+padding-left: 15px;
+margin-bottom: 0;
+border: 1px solid #EEE;
+border-radius: 4px;}
+
+#side-section .nav-list > .active > a,
+.nav-list > .active > a:hover {
+  color: #919191;
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.2);
+  background-color: #F7F7F7;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #EEE;
+
+}
+
+.comment {  border-bottom: 1px dashed #E7E7E7; padding-top:10px;}
+.comment-body {font-size: 10px;line-height: 16px;color: grey;*overflow: visible;zoom: 1;}
+.comment-heading {color:grey;margin: 0 0 5px;font-size: 12px;font-weight: 600;}
+.comment:first-child {padding:0px;}
+.comment:last-child {margin-top: 0;border: 0px;}
+.comment-object {display: block;margin-top: 3px;}
+.comment-heading .time {float: right;font-size: 9px;color: #ACACAC;}
+.comment .pull-left {margin-right: 10px;}
+.comment .pull-right {margin-left: 10px;}
+.comment-list {margin-left: 0;list-style: none;}
+
+.comment-wrapper {
+	position:relative;
+	padding:0px 10px 0px 10px;
+	border:1px solid #CCC;
+	color:#333;
+	background:#fff;
+	/* css3 */
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+/* Variant : for left positioned triangle
+------------------------------------------ */
+
+.comment-wrapper.left {
+	margin-left:0px;
+}
+
+/* Variant : for right positioned triangle
+------------------------------------------ */
+
+.comment-wrapper.right {
+	margin-right:0px;
+}
+
+/* THE TRIANGLE
+------------------------------------------------------------------------------------------------------------------------------- */
+
+.comment-wrapper:before {
+	content:"";
+	position:absolute;
+	bottom:-20px; /* value = - border-top-width - border-bottom-width */
+	left:40px; /* controls horizontal position */
+    border-width:20px 20px 0;
+	border-style:solid;
+    border-color:#5a8f00 transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+/* creates the smaller  triangle */
+.comment-wrapper:after {
+	content:"";
+	position:absolute;
+	bottom:-13px; /* value = - border-top-width - border-bottom-width */
+	left:47px; /* value = (:before left) + (:before border-left) - (:after border-left) */
+	border-width:19px 19px 0;
+	border-style:solid;
+	border-color:#fff transparent;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+}
+
+/* Variant : left
+------------------------------------------ */
+
+/* creates the larger triangle */
+.comment-wrapper.left:before {
+	top:10px; /* controls vertical position */
+	bottom:auto;
+	left:-12px; /* value = - border-left-width - border-right-width */
+	border-width:10px 12px 10px 0;
+	border-color:transparent #CCC;
+}
+
+/* creates the smaller  triangle */
+.comment-wrapper.left:after {
+	top:11px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+	bottom:auto;
+	left:-11px; /* value = - border-left-width - border-right-width */
+	border-width:9px 11px 9px 0;
+	border-color:transparent #fff;
+	opacity:1;
+}
+
+
+.comment-wrapper:hover {
+	border:1px solid #1d953f;
+	-moz-box-shadow:    0px 1px 2px 1px #ccc;
+  	-webkit-box-shadow: 0px 1px 2px 1px #ccc;
+  	box-shadow:         0px 1px 2px 1px #ccc;
+}
+
+/* creates the larger triangle */
+.comment-wrapper.left:hover:before {
+	top:10px; /* controls vertical position */
+	bottom:auto;
+	left:-12px; /* value = - border-left-width - border-right-width */
+	border-width:10px 12px 10px 0;
+	border-color:transparent #1d953f;
+}
+
+/* creates the smaller  triangle */
+.comment-wrapper.left:hover:after {
+	top:11px; /* value = (:before top) + (:before border-top) - (:after border-top) */
+	bottom:auto;
+	left:-11px; /* value = - border-left-width - border-right-width */
+	border-width:9px 11px 9px 0;
+	border-color:transparent #fff;
+	opacity:1;
+}
+
+
+/** contact list */
+.contact-list {
+    line-height: 1px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+.contact-list li {
+    border-color: #dddddd;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    padding: 1px;
+    position: relative;
+}
+.contact-list li:hover {
+	background-color: #efefef;
+}
+.contact-list li a {
+    color: #666666;
+    display: block;
+    padding: 8px 5px;
+}
+.contact-list li.online a {
+	font-weight: bold;
+}
+.contact-list li.new {
+	background-color: #eaeaea;
+}
+.contact-list li.offline {
+	background-color: #EDE0E0;
+}
+.contact-list li a img {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+}
+.contact-list li .msg-count {
+	padding: 3px 5px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
